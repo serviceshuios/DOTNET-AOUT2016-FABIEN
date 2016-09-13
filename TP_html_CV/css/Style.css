@@ -1,0 +1,746 @@
+﻿/* Fabien GAUDRON - 2016 */
+
+
+/* Pour les écran inférieur ou equal à 490 pixel*/
+/* SMALL SMARTPHONE */
+/* on efface le menu afin de rendre les information plus lisible*/
+@media screen and (max-width:490px){
+
+/* Définition des éléments générales du body, typo, margin,... */	
+body{
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:0px;
+	padding:0px;
+	outline:0px;
+	height:100%;
+}
+
+/* Définition des liens hypertextes, on supprime le soulignement des liens */
+a{
+	text-decoration:none;
+}
+
+/* Définition des liste non ordonnées, on efface les puces des listes */
+ul{
+	list-style:none	
+}
+
+/* Définition de nos titres h2 en bold et de taille 0.8em soit 13px */
+h2{
+	font-size:0.8em;
+	font-weight:bold;
+	margin:0px;
+}
+
+/* Définition de nos tire h3 en girs et de taille 0.65em soit 11px*/
+h3{
+	font-size:0.65em;
+	color:#848484;
+	margin:0px;
+}
+
+/* Définition de nos images, on indique qu'elles doivent remplir 100% de la hauteur de leurs conteneurs parents */
+img{
+	height:100%;
+}
+
+/* Définition de page complète */
+#page{
+   width:100%;
+   height:1500px;
+}
+
+/* Définition de notre block header contenant le menu, ici on ne l'affiche pas */
+#Block_header{
+	display:none;
+}
+
+/* Définition de notre bloc crops qui contient tout les autres blocs */
+#Block_corps{
+	width:100%;
+	height:100%;
+	margin:0px;
+}
+
+/* Définition de notre bloc perso qui contient l'adresse et la photo */
+#Block_perso{
+	width:100%;
+	height:20%;
+}
+
+/* Définition du bloc adresse */
+#Block_adresse{
+	width:100%;
+	height:50%;	
+}
+
+/* définition de notre liste non ordonnées ou se trouve l'adresse */
+#Liste_adresse{
+	margin-left:10%;
+	margin-top:2%;
+	padding:0px;
+}
+
+/* Définition de notre deuxieme bloc photo qui est visible dans cette version */
+#Block_photo_02{
+	width:100%;
+	height:50%;
+	text-align:center;
+}
+
+/* Définition de notre premier bloc photos qui n'st pas visible ici*/
+#Block_photo{
+	display:none;	
+}
+
+/* Définition du nom et prénom en bold*/
+#Nom{
+	font-size:1.2em;
+	font-weight:bold;
+}
+
+/* Définition du bloc contenant les informations sur la formation */
+#Block_formation{
+	width:100%;
+	height:20%;	
+}
+
+/* Définition du bloc contenant les informations sur l'expérience */
+#Block_experience{
+	width:100%;
+	height:20%;
+}
+
+/* Définition du bloc contenant les informations sur les langues */
+#Block_langues{
+	width:100%;
+	height:20%;
+}
+
+/* Définition du bloc contenant les informations sur les hobbys */
+#Block_hobbies{
+	width:100%;
+	height:20%;	
+}	
+
+/* Définition des lignes de notre liste Adresse */
+.Ligne_adresse{
+	list-style:none;
+	font-size:0.8em;
+}
+
+/* Définition des titre de noos bloc contenant les informations du CV */
+.Titre_block{
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+	font-style:italic;
+	font-size:0.8em;
+	color:#5858FA;
+	border-bottom:2px solid #5858FA;
+	margin:0px;
+	height:10%;
+}
+
+/* Définition du bloc contenant les dates */
+.Date_block{
+	float:left;
+	width:40%;
+	height:89%;	
+}
+
+/* Définition du bloc contenant les informations en lien avec les dates */
+.Infos_block{
+	width:100%;
+	height:89%;
+}
+
+/* définition des listes de dates */
+.Liste_date{
+	padding:0px;
+	margin:0px;
+}
+
+/* définition des lignes contenu dans la liste de dates */
+.Ligne_date{
+	padding-bottom:10px;
+	padding-left:10%;
+	margin:0px;
+}
+
+/* définition des listes d'informations */
+.Liste_infos{
+	padding:0px;
+	margin:0px;
+}
+
+/* définition des lignes contenu dans la liste d'infos */
+.Ligne_infos{
+	padding-bottom:10px;
+	padding-left:10%;
+	margin:0px;
+}
+
+}
+
+
+
+/* Pour les écrans compris entre 491px et 680 pixel*/
+/* Moyen et Grand SMARTPHONE ou TABLETTE en mode vertical */
+@media screen and (min-width:491px) and (max-width:680px){
+	
+body{
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:0px;
+	padding:0px;
+	outline:0px;
+	height:100%;
+}
+
+a{
+	text-decoration:none;
+}
+
+ul{
+	list-style:none;
+	
+}
+
+h2{
+	font-size:0.8em;
+	font-weight:bold;
+	margin:0px;
+}
+
+h3{
+	font-size:0.65em;
+	color:#848484;
+	margin:0px;
+}
+
+img{
+	height:100%;
+}
+
+#page{
+   width:100%;
+   height:1500px;
+}
+
+#Block_header{
+	border-right:2px solid #5858FA;
+	width:15%;
+	height:100%;
+	padding:0px;
+	margin:0px;
+	float:left;
+}
+
+/* définition de notre bloc menu contenu dans le bloc header */
+#Block_menu{
+	width:100%;
+	height:100%;
+	margin:0px;
+}
+
+/* Définition de la liste du menu */
+#Liste_menu{
+	width:100%;
+	height:100%;
+	padding:0px;
+	margin:0px;
+}
+
+#Block_corps{
+	width:84%;
+	height:100%;
+	margin:0px;
+	float:right;	
+}
+
+#Block_perso{
+	width:100%;
+	height:20%;
+}
+
+#Block_adresse{
+	width:100%;
+	height:50%;	
+}
+
+#Liste_adresse{
+	margin-left:10%;
+	margin-top:2%;
+	padding:0px;
+}
+
+#Block_photo_02{
+	width:100%;
+	height:50%;
+	text-align:center;
+}
+
+#Block_photo{
+	display:none;	
+}
+
+#Nom{
+	font-size:1.2em;
+	font-weight:bold;
+}
+
+#Block_formation{
+	width:100%;
+	height:20%;
+}
+
+#Block_experience{
+	width:100%;
+	height:20%;
+}
+
+#Block_langues{
+	width:100%;
+	height:20%;
+}
+
+#Block_hobbies{
+	width:100%;
+	height:20%;	
+}
+
+.Ligne_menu{
+	margin:auto;
+	font-size:0.6em;
+	list-style:none;
+	text-transform:uppercase;
+	margin-left:4%;
+	margin-top:2%;
+}
+
+.Ligne_adresse{
+	list-style:none;
+	font-size:0.8em;
+	
+}
+
+.Titre_block{
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+	font-style:italic;
+	font-size:0.8em;
+	color:#5858FA;
+	border-bottom:2px solid #5858FA;
+	margin:0px;
+	height:10%;
+}
+
+.Date_block{
+	float:left;
+	width:40%;
+	height:89%;
+}
+
+.Infos_block{
+	width:100%;
+	height:89%;
+}
+
+.Liste_date{
+	padding:0px;
+	margin:0px;
+}
+
+.Ligne_date{
+	padding-bottom:10px;
+	padding-left:10%;
+	margin:0px;
+}
+
+.Liste_infos{
+	padding:0px;
+	margin:0px;
+}
+
+.Ligne_infos{
+	padding-bottom:10px;
+	padding-left:10%;
+	margin:0px;
+}
+
+}
+
+
+/* Pour les écran entre 681 et 1279 pixel*/
+/* TABLETTE */
+@media screen and (min-width:681px) and (max-width:1279px){
+	
+		
+body{
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+	margin-left:15%;
+	margin-right:15%;
+	margin-top:0px;
+	padding:0px;
+	outline:0px;
+	height:100%;
+}
+
+a{
+	text-decoration:none;
+}
+
+ul{
+	list-style:none;
+	
+}
+
+h2{
+	font-size:0.9em;
+	font-weight:bold;
+	margin:0px;
+}
+
+h3{
+	font-size:0.75em;
+	color:#848484;
+	margin:0px;
+}
+
+img{
+	height:100%;
+}
+
+#page{
+   width:100%;
+   height:1000px;
+}
+
+#Block_header{
+	border-bottom:2px solid #5858FA;
+	width:100%;
+	height:3%;
+	padding:0px;
+	margin:0px;
+}
+
+#Block_menu{
+	width:100%;
+	height:100%;
+	margin:0px;
+}
+
+#Liste_menu{
+	width:100%;
+	height:100%;
+	padding:0px;
+	margin:0px;
+}
+
+#Block_corps{
+	width:100%;
+	height:100%;
+	margin:0px;	
+}
+
+#Block_perso{
+	width:100%;
+	height:18%;
+}
+
+#Block_adresse{
+	float:left;
+	width:60%;
+	height:100%;	
+}
+
+#Liste_adresse{
+	margin-left:10%;
+	margin-top:2%;
+	padding:0px;	
+}
+
+#Block_photo{
+	width:100%;
+	height:100%;
+	text-align:right;
+}
+
+#Block_photo_02{
+	display:none;	
+}
+
+#Nom{
+	font-size:1.2em;
+	font-weight:bold;
+}
+
+#Block_formation{
+	width:100%;
+	height:20%;
+}
+
+#Block_experience{
+	width:100%;
+	height:20%;
+}
+
+#Block_langues{
+	width:100%;
+	height:20%;
+}
+
+#Block_hobbies{
+	width:100%;
+	height:20%;	
+}
+
+.Ligne_menu{
+	margin:auto;
+	font-size:0.70em;
+	float:left;
+	list-style:none;
+	text-transform:uppercase;
+	margin-left:4%;
+	margin-top:2%;
+}
+
+.Ligne_adresse{
+	list-style:none;
+	font-size:0.8em;
+}
+
+.Titre_block{
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+	font-style:italic;
+	font-size:1.2em;
+	color:#5858FA;
+	border-bottom:2px solid #5858FA;
+	margin:0px;
+	height:10%;
+}
+
+.Date_block{
+	float:left;
+	width:21%;
+	height:89%;	
+}
+
+.Infos_block{
+	width:100%;
+	height:89%;
+}
+
+.Liste_date{
+	padding:0px;
+	margin:0px;
+}
+
+.Ligne_date{
+	padding-bottom:10px;
+	padding-left:10%;
+	margin:0px;
+}
+
+.Liste_infos{
+	padding:0px;
+	margin:0px;
+}
+
+.Ligne_infos{
+	padding-bottom:10px;
+	padding-left:10%;
+	margin:0px;
+}
+
+}
+
+
+/* Pour les écran supérieur 1280 pixel*/
+/* PC */
+@media screen and (min-width:1280px){
+
+body{
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:0px;
+	padding:0px;
+	outline:0px;
+}
+
+a{
+	text-decoration:none;
+}
+
+ul{
+	list-style:none;	
+}
+
+h2{
+	font-size:0.8em;
+	font-weight:bold;
+	margin:0px;
+}
+
+h3{
+	font-size:0.7em;
+	color:#848484;
+	margin:0px;
+}
+
+img{
+	height:100%;
+}
+
+#page{
+   width:100%;
+   height:100%;
+}
+
+#Block_header{
+	border-bottom:2px solid #5858FA;
+	width:100%;
+	height:50px;
+	padding:0px;
+	margin:0px;
+}
+
+#Block_menu{
+	width:100%;
+	height:100%;
+	margin:0px;
+}
+
+#Liste_menu{
+	width:100%;
+	height:100%;
+	padding:0px;
+	margin:0px;
+}
+
+#Block_corps{
+	width:100%;
+	height:720px;
+	margin:0px;	
+}
+
+#Block_perso{
+	width:100%;
+	height:25%;	
+}
+
+#Block_adresse{
+	float:left;
+	width:60%;
+	height:100%;	
+}
+
+#Liste_adresse{
+	margin:0px;
+	padding:0px;
+	margin-left:5px;	
+}
+
+#Block_photo{
+	width:100%;
+	height:100%;
+	text-align:right;
+}
+
+#Block_photo_02{
+	display:none;
+}
+
+#Nom{
+	font-size:1.2em;
+	font-weight:bold;
+}
+
+#Block_formation{
+	width:25%;
+	height:80%;
+	float:left;
+}
+
+#Block_experience{
+	width:25%;
+	height:80%;
+	float:left;
+}
+
+#Block_langues{
+	width:25%;
+	height:80%;
+	float:left;
+}
+
+#Block_hobbies{
+	float:right;
+	width:25%;
+	height:80%;
+}
+
+.Ligne_menu{
+	font-size:0.70em;
+	float:left;
+	list-style:none;
+	text-transform:uppercase;
+	margin-left:4%;
+	margin-top:1%;
+}
+
+.Ligne_adresse{
+	list-style:none;
+	font-size:0.8em;	
+}
+
+.Titre_block{
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+	font-style:italic;
+	font-size:0.95em;
+	color:#5858FA;
+	border-bottom:2px solid #5858FA;
+	margin:0px;
+	height:7%;
+}
+
+.Date_block{
+	float:left;
+	width:25%;
+	height:100%;
+}
+
+.Infos_block{
+	float:right;
+	width:75%;
+	height:100%;
+}
+
+.Liste_date{
+	padding:0px;
+	margin:0px;
+}
+
+.Ligne_date{
+	padding-bottom:10px;
+	padding-left:10%;
+	margin:0px;
+}
+
+.Liste_infos{
+	padding:0px;
+	margin:0px;
+}
+
+.Ligne_infos{
+	padding-bottom:10px;
+	padding-left:10%;
+	margin:0px;
+}
+	
+}
+
+
+/* Fabien GAUDRON - 2016 */
